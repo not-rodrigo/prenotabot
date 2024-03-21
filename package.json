@@ -1,0 +1,26 @@
+{
+    "name": "prenotbot",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "src/main.js",
+    "scripts": {
+        "cron": "node src/cron.js",
+        "start": "node src/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/local-auth": "^2.1.0",
+        "@types/puppeteer": "^5.4.6",
+        "dotenv": "^16.0.2",
+        "googleapis": "^105.0.0",
+        "node-cron": "^3.0.2",
+        "node-fetch": "^3.2.10",
+        "puppeteer": "^18.0.5",
+        "puppeteer-extra": "^3.3.4",
+        "puppeteer-extra-plugin-stealth": "^2.11.1"
+    }
+}
